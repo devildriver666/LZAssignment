@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32F0DC66600B0556FB630016 /* Pods_LazadaAssignement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F60681AB268DEF7950B7DA /* Pods_LazadaAssignement.framework */; };
+		395474681DEAAEE2007A17A9 /* LZCategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395474671DEAAEE2007A17A9 /* LZCategoryTableViewController.m */; };
+		3954746E1DEAC257007A17A9 /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3954746D1DEAC257007A17A9 /* Categories.plist */; };
+		395474711DEAC6D5007A17A9 /* LZPhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395474701DEAC6D5007A17A9 /* LZPhotoDetailViewController.m */; };
+		39663F291DE96660000373BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39663F281DE96660000373BC /* main.m */; };
+		39663F2C1DE96660000373BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39663F2B1DE96660000373BC /* AppDelegate.m */; };
+		39663F321DE96660000373BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39663F301DE96660000373BC /* Main.storyboard */; };
+		39663F371DE96660000373BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39663F361DE96660000373BC /* Assets.xcassets */; };
+		39663F3A1DE96660000373BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39663F381DE96660000373BC /* LaunchScreen.storyboard */; };
+		39663F451DE96660000373BC /* LazadaAssignementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39663F441DE96660000373BC /* LazadaAssignementTests.m */; };
+		39663F501DE96660000373BC /* LazadaAssignementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39663F4F1DE96660000373BC /* LazadaAssignementUITests.m */; };
+		39663F5F1DE96814000373BC /* LZWebServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 39663F5E1DE96814000373BC /* LZWebServiceClient.m */; };
+		39663F651DE9A7B5000373BC /* LZPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39663F641DE9A7B5000373BC /* LZPhotosCollectionViewCell.m */; };
+		39663F681DE9A9CF000373BC /* LZPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39663F671DE9A9CF000373BC /* LZPhotosCollectionViewController.m */; };
+		8094901413A3577E326CA225 /* Pods_LazadaAssignementUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CA52B14B7D3015C6ED0668 /* Pods_LazadaAssignementUITests.framework */; };
+		E7BBB0FC546F2CEF788698AD /* Pods_LazadaAssignementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6724F9DD0D8EE01181C1EB /* Pods_LazadaAssignementTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39663F411DE96660000373BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39663F1C1DE96660000373BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39663F231DE96660000373BC;
+			remoteInfo = LazadaAssignement;
+		};
+		39663F4C1DE96660000373BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39663F1C1DE96660000373BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39663F231DE96660000373BC;
+			remoteInfo = LazadaAssignement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14F60681AB268DEF7950B7DA /* Pods_LazadaAssignement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LazadaAssignement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C30242B8C9D1CCC9BBC5C94 /* Pods-LazadaAssignementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazadaAssignementTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LazadaAssignementTests/Pods-LazadaAssignementTests.release.xcconfig"; sourceTree = "<group>"; };
+		395474671DEAAEE2007A17A9 /* LZCategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCategoryTableViewController.m; sourceTree = "<group>"; };
+		395474691DEAB076007A17A9 /* LZCategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZCategoryTableViewController.h; sourceTree = "<group>"; };
+		3954746D1DEAC257007A17A9 /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
+		3954746F1DEAC6D5007A17A9 /* LZPhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPhotoDetailViewController.h; sourceTree = "<group>"; };
+		395474701DEAC6D5007A17A9 /* LZPhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPhotoDetailViewController.m; sourceTree = "<group>"; };
+		39663F241DE96660000373BC /* LazadaAssignement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazadaAssignement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39663F281DE96660000373BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39663F2A1DE96660000373BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39663F2B1DE96660000373BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39663F311DE96660000373BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39663F361DE96660000373BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39663F391DE96660000373BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39663F3B1DE96660000373BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39663F401DE96660000373BC /* LazadaAssignementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazadaAssignementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39663F441DE96660000373BC /* LazadaAssignementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LazadaAssignementTests.m; sourceTree = "<group>"; };
+		39663F461DE96660000373BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39663F4B1DE96660000373BC /* LazadaAssignementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazadaAssignementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39663F4F1DE96660000373BC /* LazadaAssignementUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LazadaAssignementUITests.m; sourceTree = "<group>"; };
+		39663F511DE96660000373BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39663F5D1DE96814000373BC /* LZWebServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZWebServiceClient.h; sourceTree = "<group>"; };
+		39663F5E1DE96814000373BC /* LZWebServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZWebServiceClient.m; sourceTree = "<group>"; };
+		39663F631DE9A7B5000373BC /* LZPhotosCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPhotosCollectionViewCell.h; sourceTree = "<group>"; };
+		39663F641DE9A7B5000373BC /* LZPhotosCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPhotosCollectionViewCell.m; sourceTree = "<group>"; };
+		39663F661DE9A9CF000373BC /* LZPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		39663F671DE9A9CF000373BC /* LZPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		48EF87613B60F8A584783149 /* Pods-LazadaAssignementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazadaAssignementUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LazadaAssignementUITests/Pods-LazadaAssignementUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78CA52B14B7D3015C6ED0668 /* Pods_LazadaAssignementUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LazadaAssignementUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C30AC94E42EC32D881B88C8 /* Pods-LazadaAssignementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazadaAssignementUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LazadaAssignementUITests/Pods-LazadaAssignementUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B67B7A623F62199E79124E23 /* Pods-LazadaAssignement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazadaAssignement.release.xcconfig"; path = "Pods/Target Support Files/Pods-LazadaAssignement/Pods-LazadaAssignement.release.xcconfig"; sourceTree = "<group>"; };
+		C969CE2E38719A5579C9ED38 /* Pods-LazadaAssignement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazadaAssignement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LazadaAssignement/Pods-LazadaAssignement.debug.xcconfig"; sourceTree = "<group>"; };
+		D52356339C3C148B52FDD548 /* Pods-LazadaAssignementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazadaAssignementTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LazadaAssignementTests/Pods-LazadaAssignementTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA6724F9DD0D8EE01181C1EB /* Pods_LazadaAssignementTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LazadaAssignementTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39663F211DE96660000373BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F0DC66600B0556FB630016 /* Pods_LazadaAssignement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39663F3D1DE96660000373BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BBB0FC546F2CEF788698AD /* Pods_LazadaAssignementTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39663F481DE96660000373BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8094901413A3577E326CA225 /* Pods_LazadaAssignementUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15CFD029AD852C78BCA009D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14F60681AB268DEF7950B7DA /* Pods_LazadaAssignement.framework */,
+				EA6724F9DD0D8EE01181C1EB /* Pods_LazadaAssignementTests.framework */,
+				78CA52B14B7D3015C6ED0668 /* Pods_LazadaAssignementUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3954746A1DEAC1E7007A17A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				395474691DEAB076007A17A9 /* LZCategoryTableViewController.h */,
+				395474671DEAAEE2007A17A9 /* LZCategoryTableViewController.m */,
+				39663F661DE9A9CF000373BC /* LZPhotosCollectionViewController.h */,
+				39663F671DE9A9CF000373BC /* LZPhotosCollectionViewController.m */,
+				3954746F1DEAC6D5007A17A9 /* LZPhotoDetailViewController.h */,
+				395474701DEAC6D5007A17A9 /* LZPhotoDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3954746B1DEAC207007A17A9 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				39663F631DE9A7B5000373BC /* LZPhotosCollectionViewCell.h */,
+				39663F641DE9A7B5000373BC /* LZPhotosCollectionViewCell.m */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		3954746C1DEAC21B007A17A9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				39663F5D1DE96814000373BC /* LZWebServiceClient.h */,
+				39663F5E1DE96814000373BC /* LZWebServiceClient.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		39663F1B1DE96660000373BC = {
+			isa = PBXGroup;
+			children = (
+				39663F261DE96660000373BC /* LazadaAssignement */,
+				39663F431DE96660000373BC /* LazadaAssignementTests */,
+				39663F4E1DE96660000373BC /* LazadaAssignementUITests */,
+				39663F251DE96660000373BC /* Products */,
+				588611088950C48AC51BD21A /* Pods */,
+				15CFD029AD852C78BCA009D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39663F251DE96660000373BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39663F241DE96660000373BC /* LazadaAssignement.app */,
+				39663F401DE96660000373BC /* LazadaAssignementTests.xctest */,
+				39663F4B1DE96660000373BC /* LazadaAssignementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39663F261DE96660000373BC /* LazadaAssignement */ = {
+			isa = PBXGroup;
+			children = (
+				3954746C1DEAC21B007A17A9 /* Networking */,
+				3954746B1DEAC207007A17A9 /* CustomCells */,
+				3954746A1DEAC1E7007A17A9 /* Controllers */,
+				39663F2A1DE96660000373BC /* AppDelegate.h */,
+				39663F2B1DE96660000373BC /* AppDelegate.m */,
+				39663F301DE96660000373BC /* Main.storyboard */,
+				39663F361DE96660000373BC /* Assets.xcassets */,
+				39663F381DE96660000373BC /* LaunchScreen.storyboard */,
+				39663F3B1DE96660000373BC /* Info.plist */,
+				39663F271DE96660000373BC /* Supporting Files */,
+				3954746D1DEAC257007A17A9 /* Categories.plist */,
+			);
+			path = LazadaAssignement;
+			sourceTree = "<group>";
+		};
+		39663F271DE96660000373BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39663F281DE96660000373BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39663F431DE96660000373BC /* LazadaAssignementTests */ = {
+			isa = PBXGroup;
+			children = (
+				39663F441DE96660000373BC /* LazadaAssignementTests.m */,
+				39663F461DE96660000373BC /* Info.plist */,
+			);
+			path = LazadaAssignementTests;
+			sourceTree = "<group>";
+		};
+		39663F4E1DE96660000373BC /* LazadaAssignementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39663F4F1DE96660000373BC /* LazadaAssignementUITests.m */,
+				39663F511DE96660000373BC /* Info.plist */,
+			);
+			path = LazadaAssignementUITests;
+			sourceTree = "<group>";
+		};
+		588611088950C48AC51BD21A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C969CE2E38719A5579C9ED38 /* Pods-LazadaAssignement.debug.xcconfig */,
+				B67B7A623F62199E79124E23 /* Pods-LazadaAssignement.release.xcconfig */,
+				D52356339C3C148B52FDD548 /* Pods-LazadaAssignementTests.debug.xcconfig */,
+				2C30242B8C9D1CCC9BBC5C94 /* Pods-LazadaAssignementTests.release.xcconfig */,
+				9C30AC94E42EC32D881B88C8 /* Pods-LazadaAssignementUITests.debug.xcconfig */,
+				48EF87613B60F8A584783149 /* Pods-LazadaAssignementUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39663F231DE96660000373BC /* LazadaAssignement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39663F541DE96660000373BC /* Build configuration list for PBXNativeTarget "LazadaAssignement" */;
+			buildPhases = (
+				7B316EDEAAF9B6EEFCA7F520 /* [CP] Check Pods Manifest.lock */,
+				39663F201DE96660000373BC /* Sources */,
+				39663F211DE96660000373BC /* Frameworks */,
+				39663F221DE96660000373BC /* Resources */,
+				24B19E0D1CF9D9D80D6E8F45 /* [CP] Embed Pods Frameworks */,
+				36B9404E7F1DF53BCDB377EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazadaAssignement;
+			productName = LazadaAssignement;
+			productReference = 39663F241DE96660000373BC /* LazadaAssignement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39663F3F1DE96660000373BC /* LazadaAssignementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39663F571DE96660000373BC /* Build configuration list for PBXNativeTarget "LazadaAssignementTests" */;
+			buildPhases = (
+				2E0F4DCE43C8B221754BB5C2 /* [CP] Check Pods Manifest.lock */,
+				39663F3C1DE96660000373BC /* Sources */,
+				39663F3D1DE96660000373BC /* Frameworks */,
+				39663F3E1DE96660000373BC /* Resources */,
+				291D652111517F538CE9C854 /* [CP] Embed Pods Frameworks */,
+				54298698A21487357A88B3EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39663F421DE96660000373BC /* PBXTargetDependency */,
+			);
+			name = LazadaAssignementTests;
+			productName = LazadaAssignementTests;
+			productReference = 39663F401DE96660000373BC /* LazadaAssignementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39663F4A1DE96660000373BC /* LazadaAssignementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39663F5A1DE96660000373BC /* Build configuration list for PBXNativeTarget "LazadaAssignementUITests" */;
+			buildPhases = (
+				183F6D60A9B51CBD8F3D1288 /* [CP] Check Pods Manifest.lock */,
+				39663F471DE96660000373BC /* Sources */,
+				39663F481DE96660000373BC /* Frameworks */,
+				39663F491DE96660000373BC /* Resources */,
+				36B7599198A8098D76118B68 /* [CP] Embed Pods Frameworks */,
+				DEA49B035634E46875BF37DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39663F4D1DE96660000373BC /* PBXTargetDependency */,
+			);
+			name = LazadaAssignementUITests;
+			productName = LazadaAssignementUITests;
+			productReference = 39663F4B1DE96660000373BC /* LazadaAssignementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39663F1C1DE96660000373BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = lazada;
+				TargetAttributes = {
+					39663F231DE96660000373BC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					39663F3F1DE96660000373BC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39663F231DE96660000373BC;
+					};
+					39663F4A1DE96660000373BC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39663F231DE96660000373BC;
+					};
+				};
+			};
+			buildConfigurationList = 39663F1F1DE96660000373BC /* Build configuration list for PBXProject "LazadaAssignement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39663F1B1DE96660000373BC;
+			productRefGroup = 39663F251DE96660000373BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39663F231DE96660000373BC /* LazadaAssignement */,
+				39663F3F1DE96660000373BC /* LazadaAssignementTests */,
+				39663F4A1DE96660000373BC /* LazadaAssignementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39663F221DE96660000373BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39663F3A1DE96660000373BC /* LaunchScreen.storyboard in Resources */,
+				39663F371DE96660000373BC /* Assets.xcassets in Resources */,
+				3954746E1DEAC257007A17A9 /* Categories.plist in Resources */,
+				39663F321DE96660000373BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39663F3E1DE96660000373BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39663F491DE96660000373BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		183F6D60A9B51CBD8F3D1288 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		24B19E0D1CF9D9D80D6E8F45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LazadaAssignement/Pods-LazadaAssignement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		291D652111517F538CE9C854 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LazadaAssignementTests/Pods-LazadaAssignementTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E0F4DCE43C8B221754BB5C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36B7599198A8098D76118B68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LazadaAssignementUITests/Pods-LazadaAssignementUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36B9404E7F1DF53BCDB377EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LazadaAssignement/Pods-LazadaAssignement-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54298698A21487357A88B3EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LazadaAssignementTests/Pods-LazadaAssignementTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B316EDEAAF9B6EEFCA7F520 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA49B035634E46875BF37DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LazadaAssignementUITests/Pods-LazadaAssignementUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39663F201DE96660000373BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39663F651DE9A7B5000373BC /* LZPhotosCollectionViewCell.m in Sources */,
+				39663F5F1DE96814000373BC /* LZWebServiceClient.m in Sources */,
+				39663F2C1DE96660000373BC /* AppDelegate.m in Sources */,
+				39663F291DE96660000373BC /* main.m in Sources */,
+				395474681DEAAEE2007A17A9 /* LZCategoryTableViewController.m in Sources */,
+				39663F681DE9A9CF000373BC /* LZPhotosCollectionViewController.m in Sources */,
+				395474711DEAC6D5007A17A9 /* LZPhotoDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39663F3C1DE96660000373BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39663F451DE96660000373BC /* LazadaAssignementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39663F471DE96660000373BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39663F501DE96660000373BC /* LazadaAssignementUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39663F421DE96660000373BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39663F231DE96660000373BC /* LazadaAssignement */;
+			targetProxy = 39663F411DE96660000373BC /* PBXContainerItemProxy */;
+		};
+		39663F4D1DE96660000373BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39663F231DE96660000373BC /* LazadaAssignement */;
+			targetProxy = 39663F4C1DE96660000373BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39663F301DE96660000373BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39663F311DE96660000373BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39663F381DE96660000373BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39663F391DE96660000373BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39663F521DE96660000373BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39663F531DE96660000373BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39663F551DE96660000373BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C969CE2E38719A5579C9ED38 /* Pods-LazadaAssignement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LazadaAssignement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazada.LazadaAssignement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		39663F561DE96660000373BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B67B7A623F62199E79124E23 /* Pods-LazadaAssignement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LazadaAssignement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazada.LazadaAssignement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		39663F581DE96660000373BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52356339C3C148B52FDD548 /* Pods-LazadaAssignementTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LazadaAssignementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazada.LazadaAssignementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazadaAssignement.app/LazadaAssignement";
+			};
+			name = Debug;
+		};
+		39663F591DE96660000373BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C30242B8C9D1CCC9BBC5C94 /* Pods-LazadaAssignementTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LazadaAssignementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazada.LazadaAssignementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazadaAssignement.app/LazadaAssignement";
+			};
+			name = Release;
+		};
+		39663F5B1DE96660000373BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C30AC94E42EC32D881B88C8 /* Pods-LazadaAssignementUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LazadaAssignementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazada.LazadaAssignementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LazadaAssignement;
+			};
+			name = Debug;
+		};
+		39663F5C1DE96660000373BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EF87613B60F8A584783149 /* Pods-LazadaAssignementUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LazadaAssignementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazada.LazadaAssignementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LazadaAssignement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39663F1F1DE96660000373BC /* Build configuration list for PBXProject "LazadaAssignement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39663F521DE96660000373BC /* Debug */,
+				39663F531DE96660000373BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39663F541DE96660000373BC /* Build configuration list for PBXNativeTarget "LazadaAssignement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39663F551DE96660000373BC /* Debug */,
+				39663F561DE96660000373BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39663F571DE96660000373BC /* Build configuration list for PBXNativeTarget "LazadaAssignementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39663F581DE96660000373BC /* Debug */,
+				39663F591DE96660000373BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39663F5A1DE96660000373BC /* Build configuration list for PBXNativeTarget "LazadaAssignementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39663F5B1DE96660000373BC /* Debug */,
+				39663F5C1DE96660000373BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39663F1C1DE96660000373BC /* Project object */;
+}

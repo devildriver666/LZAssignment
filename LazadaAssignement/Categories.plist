@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CategoryValues</key>
+	<array>
+		<string>Uncategorized</string>
+		<string>Abstract</string>
+		<string>Animals</string>
+		<string>Black and White</string>
+		<string>Celebrities</string>
+		<string>City and Architecture</string>
+		<string>Commercial</string>
+		<string>Concert</string>
+		<string>Family</string>
+		<string>Fashion</string>
+		<string>Film</string>
+		<string>Fine Art</string>
+		<string>Food</string>
+		<string>Journalism</string>
+		<string>Landscapes</string>
+		<string>Macro</string>
+		<string>Nature</string>
+		<string>Nude</string>
+		<string>People</string>
+		<string>Performing Arts</string>
+		<string>Still Life</string>
+		<string>Stree</string>
+		<string>Transportation New!</string>
+		<string>Travel</string>
+		<string>Underwater</string>
+		<string>Urban Exploration New!</string>
+		<string>Wedding New!</string>
+	</array>
+</dict>
+</plist>
